@@ -5,7 +5,7 @@ export const types = {
     UPDATE_CITY: 'UPDATE_CITY',
     
 };
-//getweather will display requested weather info on the left panel. Back ticks used in order to get ${city} to work correctly. The ${city} added into the api url will pull anything that I enter into the search field.
+//getweather will display requested weather info on the left panel. Back ticks used in order to get ${city} to work correctly. The ${city} added into the api url will pull anything that I enter into the search field. I can also use a + city + with also using back ticks in place of the ${city}.
 
 export function getWeather(city) {
     return {

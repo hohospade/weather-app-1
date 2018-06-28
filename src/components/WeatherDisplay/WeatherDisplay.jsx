@@ -7,7 +7,6 @@ export default class WeatherDisplay extends React.Component {
 
   render() {
     const { city,
-      icon,
       lat = '',
       lon = '',
       temperature,
