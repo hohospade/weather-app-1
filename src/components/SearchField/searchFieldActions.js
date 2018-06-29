@@ -1,4 +1,7 @@
 import axios from 'axios';
+
+import keys from '../../config/keys';
+
 //This const export is going into the search field reduce to be called in the axios function.
 export const types = {
     GET_WEATHER: 'GET_WEATHER',
@@ -10,7 +13,7 @@ export const types = {
 export function getWeather(city) {
     return {
         type: types.GET_WEATHER,
-        payload: axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=646de5ebd97d00284a039220b85837f7`)
+        payload: axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${keys.weatherAppApi}`)
             .then(results => results.data)
             .catch(err => console.log(err))
     }
