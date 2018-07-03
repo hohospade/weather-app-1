@@ -7,5 +7,4 @@ node_modules
 .vscode
 dist
 src/config/dev.js
-src/components/WeatherDisplay/weatherDisplayActions.js
-src/components/WeatherDisplay/weatherDisplayReducer.js
+
