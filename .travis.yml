@@ -15,6 +15,6 @@ deploy:
   provider: heroku
   api_key:
     secure: nJF7afoAEd5kv3tudimIZKmey0+N7CjEXtg/jec+G2yscnhr4fphKRkgVpiK/Tfpy0/B9sKPdsSm1l6SMWYCvWUZc5lLeznZWhWSK41pS4J6K+V2teVMgw6YK/+aqnuMwyTa4R50Lmitjh6M9fBdeaUb6LsZ+/4qINdA0cZQj5rvI5gwbxtVt02JcsztMbgxxD0wcGCydR8Qc2Cu4yRZJdn4k5DY3ry++8j4XastyY4ddEoqstvTnS8kL0Icx9Y+C1bWU3B3hcIDspNiBl0jyehkDM1y1rx0ndICPzz2EB5RD7QLIGebKhZO9e5JI314TF7qR4N7lnoZDka/fepngBWK7fnAyAj9n1btgxuueK4duoSpdCdg+T5Z6yPe1GeZhzUiqlAIMpC/v2EBtFncRHwURtNjQHfj6DTfOVwmBkr63jPB9ILmngC1UOB0j8xGPgO09IYnK84XJsMkOMVgc1dCYs3JVLIZAMmm3YnRR6UVJxAKWBctSgxy7+RO3zEEy+c6uQByTI2IPWEtdq6Mxq7cz0O4neQNrmpAvBRkuecUKVPJq9QUB9a9IEpaMCgdb/WHg68ypg162O0yjN0eqadHjfCPnvdHLx15rB0kWniSnpf4eqrCWLKuxS1V73oZGUVaLLxYkRpImP6+/4X6GtJvPpr5gyGk9PZqCkJCljc=
-  app: et-weather-app-1
+  app: et-weather-app
   on:
     repo: hohospade/weather-app-1
