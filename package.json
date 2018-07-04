@@ -9,7 +9,7 @@
     "less": "lessc src/css/style.less dist/css/style.css",
     "lint": "eslint .",
     "test": "mocha test/.setup.js test/*.spec.js --exit",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run less && webpack --mode production"
   },
   "dependencies": {
     "axios": "^0.16.1",
