@@ -11,7 +11,7 @@ export default class SearchField extends React.Component {
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleTabClick = this.handleTabClick.bind(this);
   }
-// This is for the search bar area for the initial search
+  // This is for the search bar area for the initial search
 
   handleClick(event) {
     const { dispatch, selectedCity } = this.props;
