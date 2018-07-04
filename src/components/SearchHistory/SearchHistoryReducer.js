@@ -25,7 +25,7 @@ export default function SearchHistoryReducer(state = defaultState, action) {
     sec = '0' + sec;
   }
   var time = hr + ':' + min + ':' + sec;
-
+  //var time gets passed to the history jsx file and combined with the item to display city and time stamp together in the same line.
   switch (type) {
     case (types.ADD_NEW_SEARCH_ITEM): {
       return {
