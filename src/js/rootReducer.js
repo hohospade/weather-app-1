@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import SearchFieldReducer from '../components/SearchField/searchFieldReducer';
-import SearchHistoryReducer from '../components/SearchHistory/searchHistoryReducer';
+// import SearchHistoryReducer from '../components/SearchHistory/searchHistoryReducer';
 //format taken from budget tracker and update with current paths and changes.
 const rootReducer = combineReducers({
   searchField: SearchFieldReducer,
-  searchHistory: SearchHistoryReducer,
+  // searchHistory: SearchHistoryReducer,
 });
 
 export default rootReducer;
