@@ -1,3 +1,3 @@
-export default {
+module.exports = {
   weatherAppApi: process.env.WEATHER_APP_API
 }
