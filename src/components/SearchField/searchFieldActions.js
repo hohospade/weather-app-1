@@ -13,7 +13,7 @@ export const types = {
 export function getWeather(city) {
     return {
         type: types.GET_WEATHER,
-        payload: axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${keys.weatherAppApi}`)
+        payload: axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${keys.weatherAppApi}`)
             .then(results => results.data)
             .catch(err => console.log(err))
     }
